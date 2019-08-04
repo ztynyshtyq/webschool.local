@@ -1,0 +1,23 @@
+@for $i from 1 through 10 {
+  .u__mt-#{$i} {
+    margin-top: $standard_margin*$i;
+  }
+}
+
+@for $i from 1 through 10 {
+  .u__mb-#{$i} {
+    margin-bottom: $standard_margin*$i;
+  }
+}
+
+@for $i from 1 through 10 {
+  .u__ml-#{$i} {
+    margin-left: $standard_margin*$i;
+  }
+}
+
+@for $i from 1 through 10 {
+  .u__mr-#{$i} {
+    margin-right: $standard_margin*$i;
+  }
+}

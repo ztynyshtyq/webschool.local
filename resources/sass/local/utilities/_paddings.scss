@@ -1,0 +1,23 @@
+@for $i from 1 through 10 {
+  .u__pt-#{$i} {
+    padding-top: $standard_padding*$i;
+  }
+}
+
+@for $i from 1 through 10 {
+  .u__pb-#{$i} {
+    padding-bottom: $standard_padding*$i;
+  }
+}
+
+@for $i from 1 through 10 {
+  .u__pl-#{$i} {
+    padding-left: $standard_padding*$i;
+  }
+}
+
+@for $i from 1 through 10 {
+  .u__pr-#{$i} {
+    padding-right: $standard_padding*$i;
+  }
+}

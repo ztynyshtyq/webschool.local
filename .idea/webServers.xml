@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="5a64cd3d-5def-49ab-9599-b1164ae9e956" name="2gb_ubuntu" url="http://94.247.128.146">
+        <fileTransfer host="94.247.128.146" port="21" rootFolder="/www">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" keepAliveTimeout="200000" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="5781a833-71fb-404c-9b30-d8eea0cf73ab" name="SSH:root_2gb_ubuntu" url="http://94.247.128.146">
+        <fileTransfer host="94.247.128.146" port="22" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="28783fa3-6def-45c2-94da-ff9d0fac4584" name="SSH:webschool_2gb_ubuntu" url="http://94.247.128.146">
+        <fileTransfer host="94.247.128.146" port="22" rootFolder="/home/webschool/www" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
